@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{73661F26-0511-44AA-82DA-EBC319949AFC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RhinoXPanel/RhinoXPanelCommand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RhinoXPanel/RhinoXPanelPlugIn.cs">
     <Files>
-      <File FileName="RhinoXPanel/RhinoXPanelUI.cs" Line="76" Column="147" />
-      <File FileName="RhinoXPanel/RhinoXPanelPlugIn.cs" Line="1" Column="1" />
-      <File FileName="RhinoXPanel/Properties/Resources.resx" Line="1" Column="1" />
-      <File FileName="RhinoXPanel/RhinoXPanelCommand.cs" Line="18" Column="79" />
+      <File FileName="RhinoXPanel/RhinoXPanelUI.cs" Line="83" Column="6" />
+      <File FileName="RhinoXPanel/RhinoXPanelPlugIn.cs" Line="36" Column="29" />
+      <File FileName="RhinoXPanel/RhinoXPanelCommand.cs" Line="19" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +12,7 @@
             <Node name="RhinoXPanelMac" expanded="True">
               <Node name="References" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="RhinoXPanelCommand.cs" selected="True" />
+              <Node name="RhinoXPanelPlugIn.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -22,7 +21,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/luis.fraguada/Projects/Rhino_X_Panel/RhinoXPanel/RhinoXPanel/RhinoXPanelPlugIn.cs" relfile="RhinoXPanel/RhinoXPanelPlugIn.cs" line="14" column="1" />
+      <Breakpoint file="/Users/luis.fraguada/Projects/Rhino_X_Panel/RhinoXPanel/RhinoXPanel/RhinoXPanelPlugIn.cs" relfile="RhinoXPanel/RhinoXPanelPlugIn.cs" line="32" column="1" />
+      <Breakpoint file="/Users/luis.fraguada/Projects/Rhino_X_Panel/RhinoXPanel/RhinoXPanel/RhinoXPanelCommand.cs" relfile="RhinoXPanel/RhinoXPanelCommand.cs" line="15" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.RhinoXPanelMac PreferredExecutionTarget="MonoDevelop.Default" />

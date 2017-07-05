@@ -26,6 +26,8 @@ namespace RhinoXPanel
         {
             m_document_sn = documentSerialNumber;
 
+            RhinoXPanelPlugIn.Instance.UserControl = this;
+
             var document_sn_label = new Label() { Text = $"Document serial number: {documentSerialNumber}" };
 
             var layout = new DynamicLayout { DefaultSpacing = new Size(5, 5), Padding = new Padding(10) };

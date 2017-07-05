@@ -25,5 +25,18 @@
         // You can override methods here to change the plug-in behavior on
         // loading and shut down, add options pages to the Rhino _Option command
         // and maintain plug-in wide options in a document.
+
+        protected override Rhino.PlugIns.LoadReturnCode OnLoad(ref string errorMessage)
+        {
+            var panel_type = typeof(RhinoXPanelUI);
+			Rhino.UI.Panels.RegisterPanel(this, panel_type, "RhinoXPanel", Properties.Resources.PanelIcon);
+			return Rhino.PlugIns.LoadReturnCode.Success;
+        }
+
+        public RhinoXPanelUI UserControl
+		{
+			get;
+			set;
+		}
     }
 }

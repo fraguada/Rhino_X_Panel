@@ -16,7 +16,7 @@ namespace RhinoXPanel
         {
             // Rhino only creates one instance of each command class defined in a
             // plug-in, so it is safe to store a refence in a static property.
-            Panels.RegisterPanel(PlugIn, typeof(RhinoXPanelUI), "RhinoXPanel", Properties.Resources.PanelIcon);
+            //Panels.RegisterPanel(PlugIn, typeof(RhinoXPanelUI), "RhinoXPanel", Properties.Resources.PanelIcon);
             Instance = this;
         }
 
