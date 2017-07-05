@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73661F26-0511-44AA-82DA-EBC319949AFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RhinoXPanelMac</RootNamespace>
+    <AssemblyName>RhinoXPanelMac</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG; MAC</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="RhinoCommon">
+      <HintPath>..\..\..\..\..\..\Applications\RhinoWIP.app\Contents\Resources\RhinoCommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rhino.UI">
+      <HintPath>..\..\..\..\..\..\Applications\RhinoWIP.app\Contents\Resources\Rhino.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Eto">
+      <HintPath>..\..\..\..\..\..\Applications\RhinoWIP.app\Contents\Resources\Eto.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RhinoXPanelCommand.cs" />
+    <Compile Include="RhinoXPanelPlugIn.cs" />
+    <Compile Include="RhinoXPanelUI.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PanelIcon.ico" />
+    <None Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

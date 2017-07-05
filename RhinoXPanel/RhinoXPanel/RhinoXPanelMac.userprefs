@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{73661F26-0511-44AA-82DA-EBC319949AFC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/AssemblyInfo.cs">
+    <Files>
+      <File FileName="Properties/AssemblyInfo.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RhinoXPanelMac" expanded="True">
+            <Node name="RhinoXPanelMac" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RhinoXPanelMac PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
