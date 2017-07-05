@@ -9,6 +9,7 @@ using Rhino.UI;
 
 namespace RhinoXPanel
 {
+    [System.Runtime.InteropServices.Guid("92601d58-a7ec-43ac-8616-42ba65d7c673")]
     public class RhinoXPanelCommand : Command
     {
         public RhinoXPanelCommand()
